@@ -11,5 +11,6 @@ describe('Traxidy Test Cases', () => {
       tr.login()
       tr.newproject()
       tr.newProjectinfo()
+      tr.export()
     })
   })
