@@ -38,5 +38,8 @@ class Traxidy {
         cy.get('.v-list-item__title').contains('Estimate').click()
         cy.get('#cp-saveProject').click()
     }
+    export(){
+        cy.get('.float-right').eq(1).click()
+    }
 };
 export default Traxidy
