@@ -12,7 +12,7 @@ class Traxidy {
       cy.get('#v-step-1').click()
     }
     newProjectinfo(){
-        cy.wait(5000)
+        cy.wait(10000)
         cy.get('#project-name').type('test')
         cy.get('#project-company_name').type('testing')
         cy.get('#project-department').type('QA')
